@@ -10,7 +10,7 @@
 
 function canPlay() {
   let sport = " Football";
-  let personName = null; // we need to declare the variable outside of the block scope so it can live outside the if block
+  let personName = null; // we need to declare the variable outside of the "if" block scope so it can live outside the if block
   if (true) {
     personName = "Cosimo";
   }
